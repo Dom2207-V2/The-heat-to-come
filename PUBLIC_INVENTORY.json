@@ -1,0 +1,630 @@
+{
+  "version": "2.5.1",
+  "excludes": [
+    "PUBLIC_INVENTORY.json",
+    "checksums-sha256.txt",
+    ".git/**"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1160,
+      "sha256": "bbfbff644430a51273040a5fd864617518ca92ccc589faaab8a63f44c382b9fb"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 6151,
+      "sha256": "4571131a38ca48b1f44ebe638d5aed1ca812eb00354189fde7d18191cf537279"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CREDITS_AND_PROVENANCE.md",
+      "bytes": 2420,
+      "sha256": "51ffff124b53e2d73e87e60be5599e309488babb7974ed18936671852e5b64ee"
+    },
+    {
+      "path": "DISTRIBUTION.json",
+      "bytes": 858,
+      "sha256": "a12c6760081b5566df140fae489ff32e43f8c809c73433881ea9d02d6422d071"
+    },
+    {
+      "path": "DOCUMENTATION/editions/04_model_framework.docx",
+      "bytes": 42397,
+      "sha256": "e3f06a1ced49888e2655df2fb8ec27a7ff01436f34a757bbd3cadbbb3e4804e5"
+    },
+    {
+      "path": "DOCUMENTATION/editions/04_model_framework.pdf",
+      "bytes": 336740,
+      "sha256": "72b9794ef247e3b87335f85591b07db7fb765e2ad30e0ea89a0a9a2a0c3a99ad"
+    },
+    {
+      "path": "DOCUMENTATION/editions/05_scenario_book.docx",
+      "bytes": 52139,
+      "sha256": "f18d08addee0e33627c032e00c34a212800145af470abf65eac9d18b238ae597"
+    },
+    {
+      "path": "DOCUMENTATION/editions/05_scenario_book.pdf",
+      "bytes": 430531,
+      "sha256": "a30ffc505e9057dc17b3de7df2d20e82fce025f810eff6f760fd80db217c1b6d"
+    },
+    {
+      "path": "DOCUMENTATION/editions/06_intervention_catalogue.docx",
+      "bytes": 74101,
+      "sha256": "f2afdf2481211e0ab66be06497f9d490adf4a8645634b8d9f3f911bcd3e35b99"
+    },
+    {
+      "path": "DOCUMENTATION/editions/06_intervention_catalogue.pdf",
+      "bytes": 653180,
+      "sha256": "e994f0bcc358011b5db178ee946e66860cb22b140957ae29f144e0af78602170"
+    },
+    {
+      "path": "DOCUMENTATION/editions/07_parameter_event_appendices.docx",
+      "bytes": 95192,
+      "sha256": "10a712ce51b40959ed09804442ba9523349940de1bbd666c58980e4c98ead477"
+    },
+    {
+      "path": "DOCUMENTATION/editions/07_parameter_event_appendices.pdf",
+      "bytes": 969975,
+      "sha256": "4bce319b95f821a6bd6ce506b7c10531c495c607d0b787906aacf2194611d0a0"
+    },
+    {
+      "path": "DOCUMENTATION/editions/08_data_dictionary_and_verification.docx",
+      "bytes": 39354,
+      "sha256": "a437cad179d840f604ca841a40719d6b1ba87fb3b0e4a25fb77182ff5d2d5bfb"
+    },
+    {
+      "path": "DOCUMENTATION/editions/08_data_dictionary_and_verification.pdf",
+      "bytes": 314772,
+      "sha256": "316a86db80e8ee20aac759c3955c5f78dd6a6fb2b0ac6c0ca4047b4356e69e03"
+    },
+    {
+      "path": "DOCUMENTATION/editions/facilitator_guide.docx",
+      "bytes": 35484,
+      "sha256": "e4dbb274dfb635659be01309414ac729fe936d4edf2a46e8f8e27830a11e503d"
+    },
+    {
+      "path": "DOCUMENTATION/editions/facilitator_guide.pdf",
+      "bytes": 279779,
+      "sha256": "8c9506ee4bd086abcd3245ebc815186fd2ae9493fc17205a2a274763b56da06d"
+    },
+    {
+      "path": "DOCUMENTATION/editions/player_guide.docx",
+      "bytes": 35663,
+      "sha256": "80ea1456e74ee095ca1c6d58c60313cbd9fe291840ab1b1ec52b4bb20d47c32d"
+    },
+    {
+      "path": "DOCUMENTATION/editions/player_guide.pdf",
+      "bytes": 281502,
+      "sha256": "202987ce40de79771401876d3ab40b3f9b6088719f7e06de5d0982c8b3401001"
+    },
+    {
+      "path": "DOCUMENTATION/editions/project_and_learning_objectives.docx",
+      "bytes": 35768,
+      "sha256": "f644056608683f8d8aa06ba3a20474fed3b2d9fb3e3ca841ffaf7f51f0b25248"
+    },
+    {
+      "path": "DOCUMENTATION/editions/project_and_learning_objectives.pdf",
+      "bytes": 266138,
+      "sha256": "8f56977dd0a28afddcd86dba61f69e338e623528662163dd559df859abbe6ec7"
+    },
+    {
+      "path": "DOCUMENTATION/editions/quick_start.docx",
+      "bytes": 31304,
+      "sha256": "a4be95c318f34bacde11df0e42193050e5fdc0540b38e01942e305c8261d9e43"
+    },
+    {
+      "path": "DOCUMENTATION/editions/quick_start.pdf",
+      "bytes": 235357,
+      "sha256": "f26686dc7322a6448074f93936d9641e7f45178543df1f69e62e9d1fb936ec68"
+    },
+    {
+      "path": "DOCUMENTATION/editions/release_governance.docx",
+      "bytes": 45094,
+      "sha256": "92b0e357b5820de71f9c0484927e5a000894296f70b95ad14ac4d7d8c1d8c514"
+    },
+    {
+      "path": "DOCUMENTATION/editions/release_governance.pdf",
+      "bytes": 410720,
+      "sha256": "0a721da52870a5c125aaaa28329cd085be76480fe1776876e9cf0a0d9f580ecc"
+    },
+    {
+      "path": "DOCUMENTATION/editions/workbook_guide.docx",
+      "bytes": 36447,
+      "sha256": "6f1ae8b568f704679691b3e5fe045453cc0496ced01ec428b0153c7c95ff0b70"
+    },
+    {
+      "path": "DOCUMENTATION/editions/workbook_guide.pdf",
+      "bytes": 292730,
+      "sha256": "403e471fe93b364193dbc0aa0d6a1110efa06f57791a4fe196255d24107da1e8"
+    },
+    {
+      "path": "DOCUMENTATION/GLOSSARY.md",
+      "bytes": 2689,
+      "sha256": "e16c9b4b80491a5800f29ddfb15278182cb982b82d8668d94f74d9cce4199bea"
+    },
+    {
+      "path": "DOCUMENTATION/governance/CREDITS_AND_PROVENANCE.md",
+      "bytes": 2420,
+      "sha256": "51ffff124b53e2d73e87e60be5599e309488babb7974ed18936671852e5b64ee"
+    },
+    {
+      "path": "DOCUMENTATION/governance/LICENSE.txt",
+      "bytes": 4194,
+      "sha256": "a8fd55d935b9692abb0167bffeefbda19fea57d8d0d78400fdccecb4ac616d13"
+    },
+    {
+      "path": "DOCUMENTATION/governance/PRIVACY.md",
+      "bytes": 3651,
+      "sha256": "2251438ed80ad4beee9b10e4f8de2f2d923be512d13301fa9aa2020321b4e813"
+    },
+    {
+      "path": "DOCUMENTATION/governance/QUALIFIED_ASSET_HASHES.json",
+      "bytes": 3689,
+      "sha256": "ba930e2c1260b9ec240cdafc7c832ce3d49f0882fdd2468e42ab4154bf4ae7f5"
+    },
+    {
+      "path": "DOCUMENTATION/governance/release_and_compatibility.md",
+      "bytes": 7950,
+      "sha256": "c802b62f671df3e76cf51186eff810fd775127daf2f3612e96c9378a32d41ffa"
+    },
+    {
+      "path": "DOCUMENTATION/governance/SECURITY.md",
+      "bytes": 1746,
+      "sha256": "3283be47e1c8279b073f64e1af092a6000d6da69626550ce6d12e8afd9e1bf25"
+    },
+    {
+      "path": "DOCUMENTATION/governance/SUPPORT.md",
+      "bytes": 1453,
+      "sha256": "ba3f52a940a57be77fd43fd68cdd1b522c251a093a2824a8e7cce2439d1ba663"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/adler-32-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "c542ba7851b5d39a5face477e47a27cb7c00a9759e321b66824e79718bffe1ac"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/Audio-CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/cfb-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/codepage-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/crc-32-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "c542ba7851b5d39a5face477e47a27cb7c00a9759e321b66824e79718bffe1ac"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/frac-Apache-2.0.txt",
+      "bytes": 589,
+      "sha256": "fc4d63efaee49af37d9036d8100a6e6bc311cfb98a08e834ff65b2d57bf5d193"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/Node-v22.23.3-LICENSE.txt",
+      "bytes": 145485,
+      "sha256": "c738ae413cf561f174e34f6961f8ca458aae2369a73640dda6234c629b98bcc4"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/React-DOM-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/React-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/Roboto-OFL-1.1.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/Scheduler-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/SheetJS-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "4d2a38ac35cda06a555c84074a819d413339cd3691b822cae50f8f322fe01f64"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/ssf-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/wmf-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "f0342702eaacd07db999b0f3d581128cdae6469d728c0cbabb6882382c65133f"
+    },
+    {
+      "path": "DOCUMENTATION/governance/third-party-licenses/word-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "f0342702eaacd07db999b0f3d581128cdae6469d728c0cbabb6882382c65133f"
+    },
+    {
+      "path": "DOCUMENTATION/governance/THIRD_PARTY_NOTICES.md",
+      "bytes": 2739,
+      "sha256": "5261a9c8cf59986875368b8359a5f31da0d0fbbea54a8866a51427a4f29f8a7b"
+    },
+    {
+      "path": "DOCUMENTATION/INDEX.md",
+      "bytes": 3724,
+      "sha256": "1ad9b5354aba70e599416c9967370969337f9181de5d473d190a07a83de493d0"
+    },
+    {
+      "path": "DOCUMENTATION/learning/facilitator_guide.md",
+      "bytes": 11314,
+      "sha256": "b9664b25223526c0533c02de450bb7337e9196d70833816eed1d320b57888ceb"
+    },
+    {
+      "path": "DOCUMENTATION/learning/player_guide.md",
+      "bytes": 10274,
+      "sha256": "13edd72f92fe518231c2b40a2a80012322af76f74af9abc42f6c205a7181e362"
+    },
+    {
+      "path": "DOCUMENTATION/learning/project_and_learning_objectives.md",
+      "bytes": 5542,
+      "sha256": "f132effc0ccabbfcf356695003279d3c4d0adf91efee26108646cbf966de35c1"
+    },
+    {
+      "path": "DOCUMENTATION/learning/quick_start.md",
+      "bytes": 3298,
+      "sha256": "9bb234c98453a879203f03409dc0e1c7087e24d4e5c94722c54ea2dbde742204"
+    },
+    {
+      "path": "DOCUMENTATION/SECURITY_UPDATE_2.5.1.md",
+      "bytes": 2701,
+      "sha256": "1c25574b269e7c9aa77159ee0cc0ac6ed4e4334cf4c39952dd2939145f92091e"
+    },
+    {
+      "path": "DOCUMENTATION/technical/04_model_framework.md",
+      "bytes": 22942,
+      "sha256": "d2ac8c87f39ddbfd4413ed43d5603e47adddff656d48fc7ac5b0c7f27c0b15b3"
+    },
+    {
+      "path": "DOCUMENTATION/technical/05_scenario_book.md",
+      "bytes": 18357,
+      "sha256": "c84d6505f48ae0b1c0164a129370bff342afddefb753bf1f34fc0cdcf5b4749f"
+    },
+    {
+      "path": "DOCUMENTATION/technical/06_intervention_catalogue.md",
+      "bytes": 55700,
+      "sha256": "cda0755652ef55ca1efb7f10f5284ad84ea7b8541ab354648be4dd200a6c4612"
+    },
+    {
+      "path": "DOCUMENTATION/technical/07_parameter_event_appendices.md",
+      "bytes": 51384,
+      "sha256": "da6153f0ba2e1f41899b7e7148a4c2084fc71b2efd7c676554c19cfc87fb10d3"
+    },
+    {
+      "path": "DOCUMENTATION/technical/08_data_dictionary_and_verification.md",
+      "bytes": 10682,
+      "sha256": "504dc5ec4ee35f5b339a5a4fbb87154de3fb5f931a50f1d0e6c789036d43b111"
+    },
+    {
+      "path": "DOCUMENTATION/technical/technical-data-extract.json",
+      "bytes": 200831,
+      "sha256": "fea28c48e3e9e3f7bbc9150f45593752e263be22ee7420c9e39612db278e30c7"
+    },
+    {
+      "path": "DOCUMENTATION/workbook/07_workbook_guide.md",
+      "bytes": 10609,
+      "sha256": "3c472fe2f43263e0ac86972fa3247eab0381a2794d57922525d7299c5f6002e5"
+    },
+    {
+      "path": "DOCUMENTATION/workbook/the-heat-to-come-payoff-v2.5.0.xlsx",
+      "bytes": 42403,
+      "sha256": "051d5ec6d23beceb12378181f3c373dd8c5a75e018c04a274fb1785964d027d7"
+    },
+    {
+      "path": "downloads/dossier/the-heat-to-come-v2.5.1-dossier.zip",
+      "bytes": 4491243,
+      "sha256": "e71bf08b6aaec41e1899945b4ee20d1492b068bc204944b650eee36a750b55c4"
+    },
+    {
+      "path": "downloads/SHA256SUMS.txt",
+      "bytes": 206,
+      "sha256": "1d447808287b95236a901c41505d95cea3d3d9963c1f1e8b0dd7cf2472d9ef1e"
+    },
+    {
+      "path": "downloads/windows/the-heat-to-come-v2.5.1-windows.zip",
+      "bytes": 49839968,
+      "sha256": "dc955878640b9c501b33b42bec26251295b88f32d5631b84d1ce977e8f611d73"
+    },
+    {
+      "path": "game/assets/comfort_zone_placements_v2_1-BE5E10c4.js",
+      "bytes": 56275,
+      "sha256": "7d9967f31fcc1039825613e777e667c7f47b961f59317e3f5b78adc84919fa88"
+    },
+    {
+      "path": "game/assets/editorial-content-D-gadFn0.js",
+      "bytes": 113015,
+      "sha256": "e46b5267dd585ea95ef03eb74a8669f04afb211dfc679d48ce7c328ab585c7e4"
+    },
+    {
+      "path": "game/assets/ExperienceApp-D40nor2P.css",
+      "bytes": 9916,
+      "sha256": "129879c5207433ae218f59a0920f95502ee5032358ed4c486738ed46962ed19c"
+    },
+    {
+      "path": "game/assets/ExperienceApp-DsU30icR.js",
+      "bytes": 161784,
+      "sha256": "4dcf86f5183eb8eb910e8411d8ea6012947f179ca23efebbf29d475d455af709"
+    },
+    {
+      "path": "game/assets/fragile_frontline_placements_v2_1-DJA2HjxH.js",
+      "bytes": 43571,
+      "sha256": "5b9812d7217b3bf073f57f51f9e1502f92ea7f6afe0d30e6e3da92bacf5e568c"
+    },
+    {
+      "path": "game/assets/index-CDUmwnIb.js",
+      "bytes": 196109,
+      "sha256": "e710fe89f374b82604b6da4f346b148ea0e56126276969f68ca4fa3e29b15095"
+    },
+    {
+      "path": "game/assets/index-D3Oz-KKK.css",
+      "bytes": 64612,
+      "sha256": "e2f15fae83f5a391da2a4e2ca9c9bfd53d8d9480629d85ac2e6a719a4b44428b"
+    },
+    {
+      "path": "game/assets/intervention_symbols_v2_1-CgfjgaPB.svg",
+      "bytes": 38712,
+      "sha256": "45ea104fe54245a8636e898c41686d9d41bc8c61f0d55902372917a33b4eb360"
+    },
+    {
+      "path": "game/assets/pressure_cooker_placements_v2_1-5QToT_S_.js",
+      "bytes": 56194,
+      "sha256": "c877d1713b31c63ca4907f6dc868a54488d38a78cb82f9c62f95b686ca25d676"
+    },
+    {
+      "path": "game/assets/Roboto-Variable-B3covOPw.ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "game/assets/sea_eu_tree_wave_logo_v2_2-DPxHCpeN.png",
+      "bytes": 1021895,
+      "sha256": "7071996a80ab2619febfc181a742247ef935fbcf459dfcde412644200168a457"
+    },
+    {
+      "path": "game/assets/silent_risk_placements_v2_1-Bo4zt2Q4.js",
+      "bytes": 56964,
+      "sha256": "6e52184db2706ef1ddf101270bbf7b87287e8efcd4292fe06e3e1282bd5fd4a9"
+    },
+    {
+      "path": "game/assets/simulation-core-BSBcClI0.js",
+      "bytes": 286193,
+      "sha256": "638002d1e2916305ace6603195e61f76550947e5d437c880f18c36eda4ceed0e"
+    },
+    {
+      "path": "game/assets/xlsx-CKwrMZHi.js",
+      "bytes": 499549,
+      "sha256": "f895dd67a19c78f7cfa4069482c2f9bd4c754167dc8f9b15f11988e5358ee1ba"
+    },
+    {
+      "path": "game/audio/comfort-zone-event-stinger.mp3",
+      "bytes": 80873,
+      "sha256": "eeedd9870af9a817d62df704e3d2e7842a9aa5a367c89768bd2ed3cf6d69e175"
+    },
+    {
+      "path": "game/audio/comfort-zone-finale.mp3",
+      "bytes": 599559,
+      "sha256": "bb5916e010e87bf100230fd4e9e68663e281c74a5fdda4d5afc5fa005b0f790a"
+    },
+    {
+      "path": "game/audio/comfort-zone-planning.mp3",
+      "bytes": 1294306,
+      "sha256": "14b4e0597c7edd945b117e2b021b0cab2a961646042058892132acf298c6b194"
+    },
+    {
+      "path": "game/audio/comfort-zone-tension.mp3",
+      "bytes": 750789,
+      "sha256": "eeae8b7fc0ed920d60437753e42d6fbe047280dcbb1e71c22a1210337c57900d"
+    },
+    {
+      "path": "game/audio/fragile-frontline-event-stinger.mp3",
+      "bytes": 80361,
+      "sha256": "3697738ea9c724db11e84b048d6105f2d32981869617197e835ad30d2f144e56"
+    },
+    {
+      "path": "game/audio/fragile-frontline-finale.mp3",
+      "bytes": 635578,
+      "sha256": "7eb04e24e2679dfad5ed18de34f6ecc556af751143bf5f138665b2c6f1243cfd"
+    },
+    {
+      "path": "game/audio/fragile-frontline-planning.mp3",
+      "bytes": 1132965,
+      "sha256": "d304e4e39269097723a4667da398f475c7b6ee17d444290edf1bcd3effa19f81"
+    },
+    {
+      "path": "game/audio/fragile-frontline-tension.mp3",
+      "bytes": 746002,
+      "sha256": "5a87bca10ecb93180c4b770c7fd19a34754f8ae647fdacbfb4c78181ead65df5"
+    },
+    {
+      "path": "game/audio/pressure-cooker-event-stinger.mp3",
+      "bytes": 77639,
+      "sha256": "4e87b6930b17f47c221648304cceaab9a19b9d98d6283d2d44468429466a0a73"
+    },
+    {
+      "path": "game/audio/pressure-cooker-finale.mp3",
+      "bytes": 646150,
+      "sha256": "4d039f6236ad55ce34b75a933dcf5884ed7b29e9351fa085738b0f1d72888722"
+    },
+    {
+      "path": "game/audio/pressure-cooker-planning.mp3",
+      "bytes": 1077691,
+      "sha256": "b7c243d2e85d39f010ad88b04c42f750436d9d83a9255e7a25abd2dfcefabde3"
+    },
+    {
+      "path": "game/audio/pressure-cooker-tension.mp3",
+      "bytes": 747458,
+      "sha256": "c12adf4e1537556f5d092a32139b130a75e28e911d30d1785c4770abe8ef3caf"
+    },
+    {
+      "path": "game/audio/silent-risk-event-stinger.mp3",
+      "bytes": 46407,
+      "sha256": "8de88fd901acddcafc639bec8a9710912bb49b706adcfc554ddd11ec162510a2"
+    },
+    {
+      "path": "game/audio/silent-risk-finale.mp3",
+      "bytes": 606262,
+      "sha256": "facb7a0ecccfa727b883134cc54f466aae856930bbf1f9188a7be665785240bd"
+    },
+    {
+      "path": "game/audio/silent-risk-planning.mp3",
+      "bytes": 1363733,
+      "sha256": "f195e8623bcc3b823d36707b85a1d2e74d46743d70ca6f0696b18a3516e0ec73"
+    },
+    {
+      "path": "game/audio/silent-risk-tension.mp3",
+      "bytes": 726657,
+      "sha256": "7babf1c534ceec82075cca0dbb31d402dbb592bcd1149251820daa854f499608"
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 1236,
+      "sha256": "93a2202247382e511d32ed8fdb13a1621fdfefc834c36754aba8794349a8eb2e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4753,
+      "sha256": "e466231edf49820dee75c19ef48b79396dae1264e53753b644a55925ed32adbc"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 4194,
+      "sha256": "a8fd55d935b9692abb0167bffeefbda19fea57d8d0d78400fdccecb4ac616d13"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 3651,
+      "sha256": "2251438ed80ad4beee9b10e4f8de2f2d923be512d13301fa9aa2020321b4e813"
+    },
+    {
+      "path": "PUBLIC_ALLOWLIST.json",
+      "bytes": 6580,
+      "sha256": "1096514d24b1610035b60bba1522ff3a3e12c3fca9572c5108c30975e1220aaa"
+    },
+    {
+      "path": "QUALIFIED_ASSET_HASHES.json",
+      "bytes": 3689,
+      "sha256": "ba930e2c1260b9ec240cdafc7c832ce3d49f0882fdd2468e42ab4154bf4ae7f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4345,
+      "sha256": "5260f2a2f9dfe01063bf278c70bbb62bf040d81bb073c91d93f1781e5ab64b60"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1746,
+      "sha256": "3283be47e1c8279b073f64e1af092a6000d6da69626550ce6d12e8afd9e1bf25"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 1453,
+      "sha256": "ba3f52a940a57be77fd43fd68cdd1b522c251a093a2824a8e7cce2439d1ba663"
+    },
+    {
+      "path": "third-party-licenses/adler-32-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "c542ba7851b5d39a5face477e47a27cb7c00a9759e321b66824e79718bffe1ac"
+    },
+    {
+      "path": "third-party-licenses/Audio-CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "third-party-licenses/cfb-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26"
+    },
+    {
+      "path": "third-party-licenses/codepage-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26"
+    },
+    {
+      "path": "third-party-licenses/crc-32-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "c542ba7851b5d39a5face477e47a27cb7c00a9759e321b66824e79718bffe1ac"
+    },
+    {
+      "path": "third-party-licenses/frac-Apache-2.0.txt",
+      "bytes": 589,
+      "sha256": "fc4d63efaee49af37d9036d8100a6e6bc311cfb98a08e834ff65b2d57bf5d193"
+    },
+    {
+      "path": "third-party-licenses/Node-v22.23.3-LICENSE.txt",
+      "bytes": 145485,
+      "sha256": "c738ae413cf561f174e34f6961f8ca458aae2369a73640dda6234c629b98bcc4"
+    },
+    {
+      "path": "third-party-licenses/React-DOM-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/React-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/Roboto-OFL-1.1.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "third-party-licenses/Scheduler-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/SheetJS-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "4d2a38ac35cda06a555c84074a819d413339cd3691b822cae50f8f322fe01f64"
+    },
+    {
+      "path": "third-party-licenses/ssf-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26"
+    },
+    {
+      "path": "third-party-licenses/wmf-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "f0342702eaacd07db999b0f3d581128cdae6469d728c0cbabb6882382c65133f"
+    },
+    {
+      "path": "third-party-licenses/word-Apache-2.0.txt",
+      "bytes": 11355,
+      "sha256": "f0342702eaacd07db999b0f3d581128cdae6469d728c0cbabb6882382c65133f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2739,
+      "sha256": "5261a9c8cf59986875368b8359a5f31da0d0fbbea54a8866a51427a4f29f8a7b"
+    }
+  ]
+}

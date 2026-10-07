@@ -1,0 +1,59 @@
+THE HEAT TO COME EDUCATIONAL PUBLIC DISTRIBUTION LICENCE 1.0
+Effective date: 30 August 2026
+
+Copyright © 2026 the owner of The Heat to Come. All rights reserved except as expressly granted below.
+
+1. Product and licensor
+
+“Product” means the compiled version of The Heat to Come, its original interface, editorial and game content, visual identity and accompanying documentation. “Licensor” means the copyright owner who publishes the official distribution repository. Third-party components identified in THIRD_PARTY_NOTICES.md are excluded from this definition and remain governed by their own licences.
+
+2. Free educational-use permission
+
+Subject to this licence, the Licensor grants each recipient a royalty-free, non-exclusive, non-transferable and non-sublicensable permission to:
+
+a. access and play the Product through the official website;
+b. use and display the Product for personal learning, teaching, non-commercial research, classes, workshops and other non-commercial educational activities;
+c. download the official, unmodified Windows package and install it on devices owned or controlled by the recipient or their educational institution for those purposes;
+d. share links to the official website and official GitHub Release; and
+e. view and fork the public distribution repository through GitHub functionality, as provided by the applicable GitHub terms.
+
+3. Restrictions
+
+Except where mandatory law or a separate written permission applies, this licence does not permit the recipient to:
+
+a. sell, rent, monetise, sublicense or charge for access to the Product;
+b. publish, mirror or redistribute the Product or Windows package outside GitHub's built-in public-repository functionality;
+c. distribute a modified, translated, adapted, combined or derivative version;
+d. decompile, disassemble, circumvent technical measures or reverse engineer the Product, except to the extent mandatory law expressly permits;
+e. remove or alter copyright, licence, credit, provenance, trade-mark, security or disclaimer notices;
+f. use the Product's name, logo or original content separately from the authorised Product;
+g. imply endorsement, certification or institutional approval; or
+h. use the Product or its original content to train or commercialise a competing product without separate written permission.
+
+4. Source code
+
+The development source and development repository are not distributed under this licence. Availability of compiled JavaScript in a browser or in a public distribution repository does not make the Product open source and grants no implied rights beyond sections 2 and 3.
+
+5. Educational nature
+
+The Product is an educational simulation using synthetic values. It is not climate, weather, health, engineering, financial, legal, emergency-management or institutional advice and must not be used for real operational decisions.
+
+6. Third-party materials
+
+React, React DOM, Scheduler, SheetJS and related runtime components, Roboto, Node.js and the recorded-audio sources are governed by the licences and notices supplied with the distribution. If this licence conflicts with a third-party licence, the third-party licence controls only for that component.
+
+7. Warranty and liability
+
+To the maximum extent permitted by applicable law, the Product is provided “as is” and “as available”, without express or implied warranties. The Licensor is not liable for indirect, incidental, special or consequential loss arising from use of or inability to use the Product. Nothing in this section excludes liability that applicable law does not allow to be excluded.
+
+8. Termination
+
+The permission in section 2 ends automatically upon an uncured material breach of this licence. Rights granted directly by third-party licensors are unaffected.
+
+9. Reservation of rights
+
+No patent, trade-mark or other right is granted except the copyright permissions stated above. All other rights are reserved.
+
+10. Contact and additional permission
+
+For non-sensitive licence questions or requests for broader permission, contact the repository owner through the public GitHub profile or a repository issue. Do not post personal or confidential information in an issue.

@@ -1,0 +1,16 @@
+{
+  "applicationVersion": "2.5.1",
+  "modelDataVersion": "V2-2.3.0",
+  "rulesRevision": "engine-v2.3.0-active-score-rebalance-coordination-v2",
+  "rulesFingerprint": "rules-v2.3.0-coordination-pair-normalisation-2026-09-26.1",
+  "documentationRevision": 2,
+  "distribution": "security maintenance candidate",
+  "onlineVerification": "Verify against the GitHub Pages deployment for this revision",
+  "windowsSha256": "dc955878640b9c501b33b42bec26251295b88f32d5631b84d1ce977e8f611d73",
+  "dossierSha256": "e71bf08b6aaec41e1899945b4ee20d1492b068bc204944b650eee36a750b55c4",
+  "presentationRevision": "2026-09-28-final-score-colour",
+  "securityRevision": "2026-10-07-sheetjs-node-workbook-privacy",
+  "sheetjsVersion": "0.20.3",
+  "windowsNodeVersion": "22.23.3",
+  "saveCompatibility": "unchanged qualified 2.5.0 fingerprints and namespaces"
+}

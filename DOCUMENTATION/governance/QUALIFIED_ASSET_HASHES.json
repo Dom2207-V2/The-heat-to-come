@@ -1,0 +1,102 @@
+{
+  "applicationVersion": "2.5.0",
+  "scope": "Asset bytes verified against the corrected G1 run03 build; whole candidate qualification is recorded separately in its handoff. Future package verification remains separate.",
+  "buildSha256": "18595a12df2355a40892d0a331a7464c87bc5d072d9eb2501512607c4f60e45c",
+  "files": [
+    {
+      "path": "assets/intervention_symbols_v2_1-CgfjgaPB.svg",
+      "bytes": 38712,
+      "sha256": "45ea104fe54245a8636e898c41686d9d41bc8c61f0d55902372917a33b4eb360"
+    },
+    {
+      "path": "assets/Roboto-Variable-B3covOPw.ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/sea_eu_tree_wave_logo_v2_2-DPxHCpeN.png",
+      "bytes": 1021895,
+      "sha256": "7071996a80ab2619febfc181a742247ef935fbcf459dfcde412644200168a457"
+    },
+    {
+      "path": "audio/comfort-zone-event-stinger.mp3",
+      "bytes": 80873,
+      "sha256": "eeedd9870af9a817d62df704e3d2e7842a9aa5a367c89768bd2ed3cf6d69e175"
+    },
+    {
+      "path": "audio/comfort-zone-finale.mp3",
+      "bytes": 599559,
+      "sha256": "bb5916e010e87bf100230fd4e9e68663e281c74a5fdda4d5afc5fa005b0f790a"
+    },
+    {
+      "path": "audio/comfort-zone-planning.mp3",
+      "bytes": 1294306,
+      "sha256": "14b4e0597c7edd945b117e2b021b0cab2a961646042058892132acf298c6b194"
+    },
+    {
+      "path": "audio/comfort-zone-tension.mp3",
+      "bytes": 750789,
+      "sha256": "eeae8b7fc0ed920d60437753e42d6fbe047280dcbb1e71c22a1210337c57900d"
+    },
+    {
+      "path": "audio/fragile-frontline-event-stinger.mp3",
+      "bytes": 80361,
+      "sha256": "3697738ea9c724db11e84b048d6105f2d32981869617197e835ad30d2f144e56"
+    },
+    {
+      "path": "audio/fragile-frontline-finale.mp3",
+      "bytes": 635578,
+      "sha256": "7eb04e24e2679dfad5ed18de34f6ecc556af751143bf5f138665b2c6f1243cfd"
+    },
+    {
+      "path": "audio/fragile-frontline-planning.mp3",
+      "bytes": 1132965,
+      "sha256": "d304e4e39269097723a4667da398f475c7b6ee17d444290edf1bcd3effa19f81"
+    },
+    {
+      "path": "audio/fragile-frontline-tension.mp3",
+      "bytes": 746002,
+      "sha256": "5a87bca10ecb93180c4b770c7fd19a34754f8ae647fdacbfb4c78181ead65df5"
+    },
+    {
+      "path": "audio/pressure-cooker-event-stinger.mp3",
+      "bytes": 77639,
+      "sha256": "4e87b6930b17f47c221648304cceaab9a19b9d98d6283d2d44468429466a0a73"
+    },
+    {
+      "path": "audio/pressure-cooker-finale.mp3",
+      "bytes": 646150,
+      "sha256": "4d039f6236ad55ce34b75a933dcf5884ed7b29e9351fa085738b0f1d72888722"
+    },
+    {
+      "path": "audio/pressure-cooker-planning.mp3",
+      "bytes": 1077691,
+      "sha256": "b7c243d2e85d39f010ad88b04c42f750436d9d83a9255e7a25abd2dfcefabde3"
+    },
+    {
+      "path": "audio/pressure-cooker-tension.mp3",
+      "bytes": 747458,
+      "sha256": "c12adf4e1537556f5d092a32139b130a75e28e911d30d1785c4770abe8ef3caf"
+    },
+    {
+      "path": "audio/silent-risk-event-stinger.mp3",
+      "bytes": 46407,
+      "sha256": "8de88fd901acddcafc639bec8a9710912bb49b706adcfc554ddd11ec162510a2"
+    },
+    {
+      "path": "audio/silent-risk-finale.mp3",
+      "bytes": 606262,
+      "sha256": "facb7a0ecccfa727b883134cc54f466aae856930bbf1f9188a7be665785240bd"
+    },
+    {
+      "path": "audio/silent-risk-planning.mp3",
+      "bytes": 1363733,
+      "sha256": "f195e8623bcc3b823d36707b85a1d2e74d46743d70ca6f0696b18a3516e0ec73"
+    },
+    {
+      "path": "audio/silent-risk-tension.mp3",
+      "bytes": 726657,
+      "sha256": "7babf1c534ceec82075cca0dbb31d402dbb592bcd1149251820daa854f499608"
+    }
+  ]
+}
